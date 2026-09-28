@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>支持中心 - Artligent</title>
+    <meta name="description" content="获取 Artligent 产品的帮助。常见问题解答、故障排除和技术支持联系信息。">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="/index-cn.html" class="logo">
+                <div class="logo-icon">A</div>
+                <span>Artligent</span>
+            </a>
+            <ul class="nav-links">
+                <li class="nav-item-dropdown">
+                    <button class="dropdown-toggle" type="button">
+                        产品 <span class="caret">▾</span>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a href="/vsep-cn.html" class="dropdown-link">
+                            <div class="dropdown-link-icon vsep">V</div>
+                            <div class="dropdown-link-text">
+                                <span class="dropdown-link-title">VSep <span class="dropdown-tag">已上线</span></span>
+                                <span class="dropdown-link-desc">AI 人声分离神器</span>
+                            </div>
+                        </a>
+                        <a href="/lifetime-cn.html" class="dropdown-link">
+                            <div class="dropdown-link-icon lifetime">L</div>
+                            <div class="dropdown-link-text">
+                                <span class="dropdown-link-title">LifeTime <span class="dropdown-tag soon">即将上线</span></span>
+                                <span class="dropdown-link-desc">静心的人生倒计时</span>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li><a href="/support-cn.html" class="active">支持</a></li>
+                <li><a href="https://apps.apple.com/us/app/vsep/id6759715582" class="btn btn-primary">下载 VSep</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>支持中心</h1>
+                <p>找到答案，获取产品帮助</p>
+            </div>
+        </section>
+
+        <section class="support-section">
+            <div class="container">
+                <div class="support-grid">
+                    <div class="support-sidebar">
+                        <div class="support-nav">
+                            <a href="#faq" class="support-nav-item active">VSep 常见问题</a>
+                            <a href="#lifetime" class="support-nav-item">LifeTime 常见问题</a>
+                            <a href="#troubleshooting" class="support-nav-item">故障排除</a>
+                            <a href="#contact" class="support-nav-item">联系我们</a>
+                        </div>
+                    </div>
+
+                    <div class="support-content">
+                        <!-- FAQ Section -->
+                        <div id="faq" class="support-block">
+                            <h2>VSep - 常见问题</h2>
+
+                            <div class="faq-list">
+                                <div class="faq-item">
+                                    <button class="faq-question">
+                                        <span>VSep 是如何工作的？</span>
+                                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                                    </button>
+                                    <div class="faq-answer">
+                                        <p>VSep 使用机器学习模型（CoreML）分析音频并将人声与伴奏分离。所有处理直接在您的设备上进行 — 我们绝不会将您的音频上传到任何服务器。只需导入歌曲，VSep 就会生成两个独立的音轨：一个只有人声，一个只有伴奏。</p>
+                                    </div>
+                                </div>
+
+                                <div class="faq-item">
+                                    <button class="faq-question">
+                                        <span>需要网络连接吗？</span>
+                                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                                    </button>
+                                    <div class="faq-answer">
+                                        <p>不需要！VSep 完全离线工作。AI 模型随应用一起下载并在您的设备上本地运行。这确保了您的隐私，并允许您在没有网络连接的情况下处理音乐。</p>
+                                    </div>
+                                </div>
+
+                                <div class="faq-item">
+                                    <button class="faq-question">
+                                        <span>支持哪些音频格式？</span>
+                                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                                    </button>
+                                    <div class="faq-answer">
+                                        <p>VSep 支持常见的音频格式，包括 MP3、AAC 和 WAV 文件。您可以从音乐库、文件应用导入歌曲，或使用分享功能从其他应用导入。导出的文件将以 44.1kHz 的高品质立体声 WAV 格式保存。</p>
+                                    </div>
+                                </div>
+
+                                <div class="faq-item">
+                                    <button class="faq-question">
+                                        <span>处理需要多长时间？</span>
+                                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                                    </button>
+                                    <div class="faq-answer">
+                                        <p>处理时间取决于歌曲长度和您的设备。一首典型的 3-4 分钟歌曲在现代 iPhone 上大约需要 30-60 秒处理。处理在后台运行，因此您可以在等待时使用其他应用。</p>
+                                    </div>
+                                </div>
+
+                                <div class="faq-item">
+                                    <button class="faq-question">
+                                        <span>我的音乐会被上传到服务器吗？</span>
+                                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                                    </button>
+                                    <div class="faq-answer">
+                                        <p>绝对不会。VSep 将隐私作为核心设计原则。所有音频处理都使用 CoreML 在您的设备上本地进行。您的音乐永远不会离开您的设备，也永远不会上传到任何服务器。</p>
+                                    </div>
+                                </div>
+
+                                <div class="faq-item">
+                                    <button class="faq-question">
+                                        <span>我可以将分离的音轨用于商业用途吗？</span>
+                                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                                    </button>
+                                    <div class="faq-answer">
+                                        <p>您有责任确保拥有使用 VSep 处理的任何音频的必要权利。从歌曲中分离人声并不会授予您对原始作品的额外权利。请尊重版权法律，仅使用您有权使用的内容。</p>
+                                    </div>
+                                </div>
+
+                                <div class="faq-item">
+                                    <button class="faq-question">
+                                        <span>为什么有些歌曲分离效果不好？</span>
+                                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                                    </button>
+                                    <div class="faq-answer">
+                                        <p>人声与伴奏混合较重、混响较重，或人声和乐器频率范围相似的歌曲可能更难干净地分离。AI 在人声清晰、混音分离良好的歌曲上效果最佳。结果可能因原始录音的复杂性而异。</p>
+                                    </div>
+                                </div>
+
+                                <div class="faq-item">
+                                    <button class="faq-question">
+                                        <span>支持哪些设备？</span>
+                                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                                    </button>
+                                    <div class="faq-answer">
+                                        <p>VSep 需要 iOS 16.0 或更高版本，兼容 iPhone 和 iPad。为了获得最佳性能，我们推荐使用 A12 芯片或更新的设备（iPhone XS 及更新机型）。该应用经过优化，可在所有支持的设备上高效运行。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- LifeTime FAQ Section -->
+                        <div id="lifetime" class="support-block">
+                            <h2>LifeTime - 常见问题</h2>
+
+                            <div class="faq-list">
+                                <div class="faq-item">
+                                    <button class="faq-question">
+                                        <span>LifeTime 是什么？</span>
+                                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                                    </button>
+                                    <div class="faq-answer">
+                                        <p>LifeTime 是一款静心的人生倒计时应用。它将剩余的岁月、月份、周数和天数化为平和的视觉提醒，帮助你更有意识地生活。每天早晨 9 点，还会推送一条来自世界各地思想家的经典名言。LifeTime 不是为了制造焦虑，而是为了带来清醒。了解你的时间，好好使用它。</p>
+                                    </div>
+                                </div>
+
+                                <div class="faq-item">
+                                    <button class="faq-question">
+                                        <span>LifeTime 什么时候上线？</span>
+                                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                                    </button>
+                                    <div class="faq-answer">
+                                        <p>LifeTime 即将上架 App Store。想在上线时第一时间收到通知？<a href="mailto:hohband003@163.com?subject=LifeTime%20%E4%B8%8A%E7%BA%BF%E9%80%9A%E7%9F%A5">给我们发封邮件</a>，应用一上线我们就通知你。</p>
+                                    </div>
+                                </div>
+
+                                <div class="faq-item">
+                                    <button class="faq-question">
+                                        <span>LifeTime 会存储我的哪些数据？</span>
+                                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                                    </button>
+                                    <div class="faq-answer">
+                                        <p>仅存储计算倒计时所需的信息：你的出生日期、地区、性别，以及你的预期寿命偏好。所有数据都保存在你的设备本地 — 没有账号、没有服务器，也绝不会上传任何内容。删除应用即可清除全部数据。</p>
+                                    </div>
+                                </div>
+
+                                <div class="faq-item">
+                                    <button class="faq-question">
+                                        <span>预期寿命是如何计算的？</span>
+                                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                                    </button>
+                                    <div class="faq-answer">
+                                        <p>默认情况下，LifeTime 根据你的地区和性别，使用真实的联合国预期寿命估算值。想要不同的数字？你可以在设置中关闭自动估算，并自行设定预期寿命目标 — 倒计时会即时更新。</p>
+                                    </div>
+                                </div>
+
+                                <div class="faq-item">
+                                    <button class="faq-question">
+                                        <span>可以更改早晨 9 点的通知时间吗？</span>
+                                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                                    </button>
+                                    <div class="faq-answer">
+                                        <p>每日名言通知固定在早晨 9 点推送 — 这是一个宁静的晨间反思时刻。你可以在设置中完全开启或关闭通知，也可以在 iOS 的 设置 > [你的名字] > LifeTime 中管理 LifeTime 的通知权限。</p>
+                                    </div>
+                                </div>
+
+                                <div class="faq-item">
+                                    <button class="faq-question">
+                                        <span>LifeTime 需要联网吗？</span>
+                                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                                    </button>
+                                    <div class="faq-answer">
+                                        <p>不需要。LifeTime 完全离线工作。所有名言和预期寿命数据都内置在应用中，完全在你的设备上运行。没有账号、没有网络、没有追踪。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Troubleshooting Section -->
+                        <div id="troubleshooting" class="support-block">
+                            <h2>VSep 故障排除</h2>
+
+                            <div class="troubleshooting-list">
+                                <div class="troubleshooting-item">
+                                    <h4>应用在处理过程中崩溃</h4>
+                                    <ul>
+                                        <li>确保您有足够的可用存储空间（建议至少 2GB）</li>
+                                        <li>关闭其他应用以释放内存</li>
+                                        <li>尝试先处理较短的歌曲</li>
+                                        <li>重启设备后重试</li>
+                                    </ul>
+                                </div>
+
+                                <div class="troubleshooting-item">
+                                    <h4>无法从音乐库导入歌曲</h4>
+                                    <ul>
+                                        <li>确保您已在 设置 > 隐私与安全性 > 媒体与 Apple Music 中授予 VSep 访问音乐库的权限</li>
+                                        <li>受 DRM 保护的歌曲（较旧的 iTunes 购买）无法处理</li>
+                                        <li>尝试通过文件应用导入</li>
+                                    </ul>
+                                </div>
+
+                                <div class="troubleshooting-item">
+                                    <h4>导出失败或文件损坏</h4>
+                                    <ul>
+                                        <li>检查可用存储空间</li>
+                                        <li>尝试导出到其他位置</li>
+                                        <li>确保应用有权写入文件</li>
+                                    </ul>
+                                </div>
+
+                                <div class="troubleshooting-item">
+                                    <h4>分离质量不佳</h4>
+                                    <ul>
+                                        <li>AI 在高品质源音频上效果最佳</li>
+                                        <li>某些流派和混音风格更难分离</li>
+                                        <li>尝试不同的歌曲以查看不同的结果</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Contact Section -->
+                        <div id="contact" class="support-block">
+                            <h2>联系我们</h2>
+                            <p>仍然需要帮助？我们随时为您提供协助。</p>
+
+                            <div class="contact-options">
+                                <div class="contact-card">
+                                    <div class="contact-icon">✉️</div>
+                                    <h4>邮件支持</h4>
+                                    <p>一般问题和技术支持</p>
+                                    <a href="mailto:hohband003@163.com">hohband003@163.com</a>
+                                </div>
+
+                                <div class="contact-card">
+                                    <div class="contact-icon">🐛</div>
+                                    <h4>错误报告</h4>
+                                    <p>报告问题或异常行为</p>
+                                    <a href="mailto:hohband003@163.com">hohband003@163.com</a>
+                                </div>
+
+                                <div class="contact-card">
+                                    <div class="contact-icon">💡</div>
+                                    <h4>功能建议</h4>
+                                    <p>建议新功能或改进</p>
+                                    <a href="mailto:hohband003@163.com">hohband003@163.com</a>
+                                </div>
+                            </div>
+
+                            <div class="response-time">
+                                <p><strong>回复时间：</strong>我们通常会在 24-48 小时内回复所有咨询。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="/index-cn.html" class="logo">
+                        <div class="logo-icon">A</div>
+                        <span>Artligent</span>
+                    </a>
+                    <p>为每个人创造智能应用</p>
+                    <div class="lang-switcher">
+                        <a href="/support.html">English</a>
+                        <a href="/support-cn.html" class="active">中文</a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>产品</h4>
+                        <ul>
+                            <li><a href="/vsep-cn.html">VSep</a></li>
+                            <li><a href="/lifetime-cn.html">LifeTime</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>支持</h4>
+                        <ul>
+                            <li><a href="/support-cn.html">帮助中心</a></li>
+                            <li><a href="/support-cn.html#faq">VSep 常见问题</a></li>
+                            <li><a href="/support-cn.html#lifetime">LifeTime 常见问题</a></li>
+                            <li><a href="/support-cn.html#contact">联系我们</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>法律</h4>
+                        <ul>
+                            <li><a href="/privacy.html">Privacy Policy</a></li>
+                            <li><a href="/privacy-cn.html">隐私政策</a></li>
+                            <li><a href="/terms.html">服务条款</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Artligent. 保留所有权利。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

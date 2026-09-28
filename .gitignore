@@ -1,0 +1,6 @@
+# macOS
+.DS_Store
+*.swp
+
+# Local agent output / planning
+.workbuddy/
